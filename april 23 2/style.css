@@ -1,0 +1,52 @@
+/* nested selector */
+.main div h1 {
+    background-color: brown;
+    color: azure;
+    font-family: cursive;
+    font-style: italic;
+    font-weight: 900;
+
+}
+
+.main div p{
+    font-weight: 900;
+    /* capitalize lowercase and uppercase */
+    text-transform: capitalize;
+    text-align: justify;
+    letter-spacing: 3px;
+    word-spacing: 3px;
+    line-height: 30px;
+}
+.head span{
+    color: brown;
+    font-style: italic;
+}
+p{
+    border-style: solid;
+    border-width: 5px;
+    border-color: brown;
+    /* shorthand */
+    /* border: 5px dashed blue; */
+    border-top: 5px solid red;
+    border-bottom: 5px dashed blue;
+    border-left: 5px double green;
+    border-right: 5px double orange;
+    border-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 40px;
+
+}
+.main{
+    background-image: url(https://unsplash.com/photos/a-bunch-of-flowers-that-are-on-a-tree-PqIYDDnzg3Q ;)
+    
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+
+ /* shorthand */
+back
+
+}
