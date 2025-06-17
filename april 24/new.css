@@ -1,0 +1,23 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+RO:wght@100..400&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Playwrite RO", cursive;
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+    border: 5px solid red;
+    /* all side */
+    padding: 10px 20px;
+    /* different top right bottom */
+    padding: 10px 20px 30px 40px;
+    margin: 20px;
+    margin: 10px 20px;
+    margin: 10px 20px 30px 40px;
+    
+}
