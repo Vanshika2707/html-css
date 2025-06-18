@@ -1,0 +1,420 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Georgia', serif;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+.hero {
+  background-color: white;
+  color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 32px;
+  border-bottom: 1px solid #ddd;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  position: relative;
+  flex-wrap: wrap;
+}
+
+.logo {
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.navbar ul {
+  display: flex;
+  gap: 30px;
+  list-style: none;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: #333;
+  font-size: 16px;
+  position: relative;
+  transition: color 0.3s ease;
+}
+
+.navbar ul li a::after {
+  content: "";
+  position: absolute;
+  width: 0%;
+  height: 2px;
+  left: 0;
+  bottom: -4px;
+  background-color: #000;
+  transition: width 0.3s ease;
+}
+
+.navbar ul li a:hover {
+  color: #000;
+}
+
+.navbar ul li a:hover::after {
+  width: 100%;
+}
+
+/* Hide checkbox */
+.menu-checkbox {
+  display: none;
+}
+
+/* Hamburger icon */
+.menu-icon {
+  display: none;
+  font-size: 28px;
+  cursor: pointer;
+  user-select: none;
+}
+
+  /* home section */
+  .home {
+    background: url(/burger/burger.JPEG) no-repeat center center/cover;
+    height: 100vh;
+    color: grey;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    text-align: center;
+    position: relative;
+  }
+
+  .home h5 {
+    font-size: 55px;
+    font: 36px "playfair display";
+    position: relative;
+    right: 510px;
+    top: 230px;
+    letter-spacing: 4px;
+  }
+ 
+  /* about */
+  .container {
+    display: flex;
+    padding: 70px 100px; 
+  }
+
+.image img {
+    width: 500px;
+    height: 650px;
+}
+
+.text {
+    align-items: center;
+    width: 50%;
+    height: 400px;
+    margin: 64px 40px;
+}
+
+.text h2 {
+    text-align: center;
+    font-size: 30px;
+    font: 36px "playfair display";
+    margin: 10px 0px;
+    letter-spacing: 4px;
+
+}
+
+.text h5 {
+    text-align: center;
+    font: 18px "playfair display";
+    margin: 10px 0px;
+    letter-spacing: 4px;
+    line-height: 1.6;
+}
+
+.text p {
+    text-align: center;
+    font: 18px "playfair display";
+    margin: 18px 0px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    word-spacing: 4px;
+
+}
+.highlight {
+    background-color: #f1f1f1;
+    padding: 2px 6px;
+  }
+
+.para2 {
+    color: grey
+}
+
+
+
+/*  munu */
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  
+.menu {
+    display: flex;
+    /* padding-right: 40px; */
+    padding: 12px 24px;
+    flex-direction: column;
+    padding: 50px;
+  }
+  
+.menu h1 {
+    font: 36px "playfair display";
+    margin-bottom: 40px;
+    text-align: center;
+    letter-spacing: 4px;
+  }
+  
+.item {
+    margin-bottom: 30px;
+  }
+  
+.item h2 {
+    font: 20px "playfair display";
+    letter-spacing: 4px;
+  }
+  
+.item p {
+    font-size: 14px;
+    color: grey;
+  }
+  
+  
+.image img {
+    width: 500px;
+    height: 650px;
+}
+
+/* service */
+.about-container {
+    display: flex;
+    padding: 70px 100px;
+  }
+
+.image-section img {
+    width: 500px;
+    height: 500px;
+}
+
+.text-section {
+    align-items: center;
+    width: 50%;
+    height: 400px;
+    margin: 64px 40px;
+}
+
+.text-section h1 {
+    text-align: center;
+    font-size: 30px;
+    font: 36px "playfair display";
+    margin: 10px 0px;
+    letter-spacing: 4px;
+
+}
+
+.text-section p {
+    text-align: center;
+    font: 18px "playfair display";
+    margin: 18px 0px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    word-spacing: 4px;
+
+
+}
+
+/* footer */
+.footer {
+  border-style: ridge;
+  justify-content: center;
+  padding: 64px 90px;
+}
+
+.footer h2 {
+  margin: 10px 10px;
+  font: 36px "playfair display";
+  letter-spacing: 4px;
+}
+
+.footer h5 {
+  margin: 15px 10px;
+  font-size: 16px;
+  color: rgba(95, 158, 160, 0.678);
+}
+
+.footer p {
+  margin: 15px 10px;
+  font-size: 13.7px;
+}
+.footer input {
+   
+  width: 1060px;
+  height: 40px;
+  border: none;
+  border-bottom: ridge;
+  position: relative;
+  left: 10px;
+
+}
+
+.footer .submit {
+  width: 50px;
+}
+
+
+/* Responsivness */
+
+
+/* Tablet view */
+
+@media (max-width: 800px) {
+  .menu-icon {
+    display: block;
+  }
+
+  .navbar {
+    display: none;
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  .menu-checkbox:checked ~ .navbar {
+    display: block;
+  }
+
+  .navbar ul {
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .navbar ul li a {
+    padding: 8px 0;
+    display: block;
+  }
+
+  .hero {
+    flex-direction: row;          
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  /* Home and about section */
+   .container {
+    flex-direction: column;
+    padding: 40px 20px;
+    gap: 20px;
+  }
+  img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+  .image img {
+    width: 100%;
+    height: auto;
+    display: block;
+    max-width: 100%;
+  }
+
+  .text {
+    width: 100%;
+    margin: 0;
+    height: auto;
+  }
+
+  .text h2,
+  .text h5,
+  .text p {
+    text-align: center;
+    padding: 0 10px;
+  }
+   .about-container {
+    flex-direction: column;
+    padding: 40px 20px;
+    gap: 30px;
+  }
+  .image-section img {
+    width: 100%;
+    height: auto;
+  }
+
+  .image-section,
+  .image {
+    width: 100%;
+  }
+
+  .text-section {
+    width: 100%;
+    margin: 0;
+    height: auto;
+  }
+
+   .footer {
+    padding: 40px 20px;
+  }
+
+  .footer input {
+    width: 100%;
+    max-width: 100%;
+    height: 40px;
+    margin-bottom: 15px;
+    left: 0;
+  }
+
+  .footer h2,
+  .footer h5,
+  .footer p {
+    text-align: center;
+  }
+
+  #submit {
+    width: 100%;
+    height: 45px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+}
+
+/* Mobile view */
+@media (max-width: 500px) {
+  .menu-icon {
+    display: block;
+  }
+
+  .navbar {
+    display: none;
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  /* Show menu when checkbox is checked */
+  .menu-checkbox:checked ~ .navbar {
+    display: block;
+  }
+
+  .navbar ul {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .navbar ul li a {
+    padding: 8px 0;
+    display: block;
+  }
+}
